@@ -317,11 +317,12 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: 600%;
+  height: 100%;
 }
 
 .item-show {
   position: relative;
-  max-height: 450px;
+  min-height: 100%;
   min-width: 100%;
   overflow: hidden;
   display: -webkit-box;
