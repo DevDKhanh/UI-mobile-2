@@ -1,0 +1,57 @@
+@import './variables';
+
+.contact {
+    .item-contact {
+        &:nth-child(1) {
+            display: flex;
+            .btn-contact  {
+                flex: 1;
+                &:nth-child(1) {
+                    margin-right: .5rem;
+                }
+                &:nth-child(2) {
+                    margin-left: .5rem;
+                }
+            }
+        }
+
+        .btn-contact {
+            user-select: none;
+            margin-top: 1rem;
+            background-color: $color-background-text;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            padding: .4rem .7rem;
+            color: #000;
+            border-radius: 2rem;
+
+            .icon {
+                overflow: hidden;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                width: 2rem;
+                height: 2rem;
+                font-size: 1.4rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .text {
+                flex: 1;
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

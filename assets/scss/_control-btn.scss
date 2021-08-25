@@ -1,0 +1,49 @@
+@import './variables';
+
+.control-btn {
+    position: relative;
+    background-color: #fff;
+    padding: 1rem;
+    padding-top: 0;
+    margin-top: -1px;
+    z-index: 100;
+    .group-btn {
+        display: flex;
+        flex-wrap: wrap;
+        .btn-item {
+            width: 50%;
+            margin-top: .6rem;
+
+            &:nth-child(1),
+            &:nth-child(3) {
+                padding-right: .3rem;
+            }
+
+            &:nth-child(2),
+            &:nth-child(4) {
+                padding-left: .3rem;
+            }
+
+            label.show {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: inline-block;
+                min-width: 100%;
+                max-width: 100%;
+                text-align: center;
+                border: 0;
+                background-color: $base-color;
+                color: #000;
+                font-size: .9rem;
+                font-weight: 600;
+                border-radius: .5rem;
+                padding: .85rem 1rem;
+                width:  auto;
+                cursor: pointer;
+                outline: none;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            }
+        }
+    }
+}

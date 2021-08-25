@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Welcome</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="./assets/css/app.css" />
+	</head>
+	<body>
+
+		<div id="app">
+			<div id="toast"></div>
+			<div id="show-more"></div>
+			<div class="main-layout">
+
+				<!-- header page  -->
+				<div class="header-main">
+					<h1 class="name-company">
+						<div class="logo-icon">
+							<img src="./assets/images/svg/icon-panel.svg" alt="icon" />
+						</div>
+						<div class="text">COMPANY NAME</div>
+					</h1>
+					<h2 class="text">PALCE YOUR TEXT HERE</label>
+					<div class="logo">
+						<img src="https://tppwebsolutions.com/wp-content/uploads/logo-design.png" alt="logo" />
+					</div>
+				</div>
+
+				<!-- slider  -->
+				<section class="slider">
+					<div class="background-img">
+						<img src="./assets/images/svg/ribbon-bg.svg" alt="">
+					</div>
+					<div class="carousel">
+						<div class="slideshow">
+							<div class="item-show" id="first">
+								<div class="img">
+									<img src="https://images.pexels.com/photos/2455398/pexels-photo-2455398.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+									<span class="img-line">
+										<img src="./assets/images/svg/ribbon-bottom.svg" alt="">
+									</span>
+								</div>
+								<div class="text">
+									<div class="title">
+										This is a house
+									</div>
+									<div class="descriptions">
+										There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+									</div>
+								</div>
+							</div>
+							<div class="item-show">
+								<div class="img">
+									<img src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+									<span class="img-line">
+										<img src="./assets/images/svg/ribbon-bottom.svg" alt="">
+									</span>
+								</div>
+								<div class="text">
+									<div class="title">
+										This is a house
+									</div>
+									<div class="descriptions">
+										There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+									</div>
+								</div>
+							</div>
+							<div class="item-show">
+								<div class="img">
+									<img src="https://images.pexels.com/photos/3958958/pexels-photo-3958958.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+									<span class="img-line">
+										<img src="./assets/images/svg/ribbon-bottom.svg" alt="">
+									</span>
+								</div>
+								<div class="text">
+									<div class="title">
+										This is a house
+									</div>
+									<div class="descriptions">
+										There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+									</div>
+								</div>
+							</div>
+							<div class="item-show">
+								<div class="img">
+									<img src="https://images.pexels.com/photos/5178060/pexels-photo-5178060.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+									<span class="img-line">
+										<img src="./assets/images/svg/ribbon-bottom.svg" alt="">
+									</span>
+								</div>
+								<div class="text">
+									<div class="title">
+										This is a house
+									</div>
+									<div class="descriptions">
+										There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+									</div>
+								</div>
+							</div>
+							<div class="item-show">
+								<div class="img">
+									<img src="https://images.pexels.com/photos/2455398/pexels-photo-2455398.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+									<span class="img-line">
+										<img src="./assets/images/svg/ribbon-bottom.svg" alt="">
+									</span>
+								</div>
+								<div class="text">
+									<div class="title">
+										This is a house
+									</div>
+									<div class="descriptions">
+										There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+									</div>
+								</div>
+							</div>
+							<div class="item-show" id="end">
+								<div class="img">
+									<img src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+									<span class="img-line">
+										<img src="./assets/images/svg/ribbon-bottom.svg" alt="">
+									</span>
+								</div>
+								<div class="text">
+									<div class="title">
+										This is a house
+									</div>
+									<div class="descriptions">
+										There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn btnPrev">
+							<ion-icon name="caret-back-outline"></ion-icon>
+						</div>
+						<div class="btn btnNext">
+							<ion-icon name="caret-forward-outline"></ion-icon>
+						</div>
+					</div>
+				</section>
+
+				<!-- group button  -->
+				<div class="control-btn">
+					<div class="group-btn">
+
+						<!-- album section  -->
+						<div class="btn-item">
+							<label class="show" for="show-tab-1">
+								Ảnh công trình
+							</label>
+							<input hidden type="checkbox" class="show-tab" id="show-tab-1">
+							<label for="show-tab-1" class="overlay"></label>
+							<div class="tab-show hight">
+								<label for="show-tab-1" class="btn-close">
+									<ion-icon name="close-circle-outline"></ion-icon>
+								</label>
+								<div class="title album">
+									<span>Album ảnh</span>
+									<div class="control-album">
+										<div class="btn-show show-album">
+											<label for="menudrop-2">
+												Danh mục
+											</label>
+											<input type="checkbox" name="" hidden class="menudrop" id="menudrop-2">
+											<div class="menu-dropdown">
+												<div class="menu-dropdown__item">
+													item 1
+												</div>
+												<div class="menu-dropdown__item">
+													item 2
+												</div>
+												<div class="menu-dropdown__item">
+													item 3
+												</div>
+											</div>
+										</div>
+										<a class="btn-link" href="">
+											Xem tất cả
+										</a>
+									</div>
+								</div>
+								<div class="content">
+									<div class="album-list"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- service section  -->
+						<div class="btn-item"> 
+							<label class="show" for="show-tab-2">
+								Dịch vụ
+							</label>
+							<input hidden type="checkbox" class="show-tab" id="show-tab-2">
+							<label for="show-tab-2" class="overlay"></label>
+							<div class="tab-show hight">
+								<label for="show-tab-2" class="btn-close">
+									<ion-icon name="close-circle-outline"></ion-icon>
+								</label>
+								<div class="title">Dịch vụ</div>
+								<div class="content">
+									<div class="service-list">
+										<div data-id="1" class="service-item">
+											<img src="https://images.pexels.com/photos/6128131/pexels-photo-6128131.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400" alt="">
+											<div class="service-title">
+												Dịch vụ 1
+											</div>
+										</div>
+										<div data-id="2" class="service-item">
+											<img src="https://images.pexels.com/photos/6357189/pexels-photo-6357189.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+											<div class="service-title">
+												Dịch vụ 2
+											</div>
+										</div>
+										<div data-id="3" class="service-item">
+											<img src="https://images.pexels.com/photos/6357189/pexels-photo-6357189.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+											<div class="service-title">
+												Dịch vụ 3
+											</div>
+										</div>
+										<div data-id="4" class="service-item">
+											<img src="https://images.pexels.com/photos/6357189/pexels-photo-6357189.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+											<div class="service-title">
+												Dịch vụ 4 Dịch vụ 4 Dịch vụ 4 Dịch vụ 4 Dịch vụ 4 Dịch vụ 4 Dịch vụ 4
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- news section  -->
+						<div class="btn-item">
+							<label class="show" for="show-tab-3">
+								Bản tin công ty
+							</label>
+							<input hidden type="checkbox" class="show-tab" id="show-tab-3">
+							<label for="show-tab-3" class="overlay"></label>
+							<div class="tab-show">
+								<label for="show-tab-3" class="btn-close">
+									<ion-icon name="close-circle-outline"></ion-icon>
+								</label>
+								<div class="title album">
+									<span>Tin tức</span>
+									<div class="control-album">
+										<div class="btn-show show-album">
+											<label for="menudrop-1">
+												Danh mục
+											</label>
+											<input type="checkbox" name="" hidden class="menudrop" id="menudrop-1">
+											<div class="menu-dropdown">
+												<div class="menu-dropdown__item">
+													item 1
+												</div>
+												<div class="menu-dropdown__item">
+													item 2
+												</div>
+												<div class="menu-dropdown__item">
+													item 3
+												</div>
+											</div>
+										</div>
+										<a class="btn-link" href="">
+											Xem tất cả
+										</a>
+									</div>
+								</div>
+								<div class="content">
+									<div class="list-news">
+										<div data-id="1" class="news-item">
+											<div class="news-item__img">
+												<img src="https://images.pexels.com/photos/265667/pexels-photo-265667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+											</div>
+											<div class="news-item__info">
+												<div class="news-title">Title</div>
+												<div class="text">text content</div>
+											</div>
+										</div>
+										<div data-id="2" class="news-item">
+											<div class="news-item__img">
+												<img src="https://images.pexels.com/photos/1181449/pexels-photo-1181449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+											</div>
+											<div class="news-item__info">
+												<div class="news-title"> Lorem Ipsum has been the industry's standard</div>
+												<div class="text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum</div>
+											</div>
+										</div>
+										<div data-id="3" class="news-item">
+											<div class="news-item__img">
+												<img src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+											</div>
+											<div class="news-item__info">
+												<div class="news-title">Title</div>
+												<div class="text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+											</div>
+										</div>
+										<div data-id="4" class="news-item">
+											<div class="news-item__img">
+												<img src="https://images.pexels.com/photos/1181449/pexels-photo-1181449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+											</div>
+											<div class="news-item__info">
+												<div class="news-title"> Lorem Ipsum has been the industry's standard</div>
+												<div class="text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- contact section  -->
+						<div class="btn-item">
+							<label class="show" for="show-tab-4">
+								Thông tin liên hệ
+							</label>
+							<input hidden type="checkbox" class="show-tab" id="show-tab-4">
+							<label for="show-tab-4" class="overlay"></label>
+							<div class="tab-show">
+								<label for="show-tab-4" class="btn-close">
+									<ion-icon name="close-circle-outline"></ion-icon>
+								</label>
+								<div class="title">Thông tin công ty</div>
+								<div class="content">
+									<div class="name-company info">
+										<div class="title-item">Tên công ty đầy đủ:</div>
+										<div class="info-item">
+											<div class="text" >Name Company</div>
+											<div class="btn-copy">
+												copy
+											</div>
+										</div>
+									</div>
+									<div class="num-company info">
+										<div class="title-item">Mã số thuế:</div>
+										<div class="info-item">
+											<div class="text" >8613898</div>
+											<div class="btn-copy">
+												copy
+											</div>
+										</div>
+									</div>
+									<div class="contact">
+										<div class="item-contact">
+											<a class="btn-contact" href="tel:0973551247">
+												<div class="icon">
+													<ion-icon name="call-outline"></ion-icon>
+												</div>
+												<div class="text">Gọi điện thoại</div>
+											</a>
+											<a class="btn-contact" href="#">
+												<div class="icon">
+													<ion-icon name="id-card-outline"></ion-icon>
+												</div>
+												<div class="text">Lưu danh bạ</div>
+											</a>
+										</div> 
+										<div class="item-contact">
+											<a href="#" class="btn-contact">
+												<div class="icon">
+													<img src="./assets/images/img/zalo-icon.png" alt="">
+												</div>
+												<div class="text">
+													Zalo: 0988.888.888
+												</div>
+											</a>
+											<a href="#" class="btn-contact">
+												<div class="icon"><img src="./assets/images/img/fb_logo.png" alt=""></div>
+												<div class="text">Facebook</div>
+											</a>
+											<a href="#" class="btn-contact">
+												<div class="icon"><img src="./assets/images/img/twitter_logo.png" alt=""></div>
+												<div class="text">Twitter</div>
+											</a>
+										</div>
+									</div>						
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./assets/js/toast.js"></script>
+		<script src="./assets/js/slider.js"></script>
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
