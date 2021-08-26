@@ -25,6 +25,7 @@
 
 .tab-show-more {
     position: fixed;
+    max-width: 450px;
     bottom: 0;
     opacity: 1;
     left: 0;
@@ -118,15 +119,18 @@
 
 .tab-show-more.hight {
     height: 85%;
+    max-width: 450px;
 }
 
 .tab-show.hight {
     height: 85%;
+    max-width: 450px;
 }
 
 .tab-show {
     position: fixed;
     bottom: -100%;
+    max-width: 450px;
     opacity: 0;
     left: 0;
     background-color: #fff;

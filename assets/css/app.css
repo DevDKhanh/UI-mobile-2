@@ -449,9 +449,11 @@ img {
 
 .tab-show-more {
   position: fixed;
+  max-width: 450px;
   bottom: 0;
   opacity: 1;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #fff;
   color: #000;
   width: 100%;
@@ -567,17 +569,21 @@ img {
 
 .tab-show-more.hight {
   height: 85%;
+  max-width: 450px;
 }
 
 .tab-show.hight {
   height: 85%;
+  max-width: 450px;
 }
 
 .tab-show {
   position: fixed;
+  max-width: 450px;
   bottom: -100%;
   opacity: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #fff;
   color: #000;
   width: 100%;
